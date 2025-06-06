@@ -83,10 +83,11 @@ The script will automatically assign proxies to wallets in order or randomly if 
 
 ## Usage
 
-Run the script from your terminal:
-
+Choose a script to run from your terminal:
 ```bash
-php meomundep.php
+php bridge_meomundep.php      # For bridging
+php faucet_meomundep.php      # For claiming faucet
+php deploy_meomundep.php      # For deploying contract
 ```
 
 The script will:
