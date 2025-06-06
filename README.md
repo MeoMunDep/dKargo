@@ -95,7 +95,6 @@ php faucet_meomundep.php      # For claiming faucet
 ```bash
 php deploy_meomundep.php      # For deploying contract
 ```
-```
 
 The script will:
 
