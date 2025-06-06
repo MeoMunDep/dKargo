@@ -312,7 +312,7 @@ function main(): never
         }
 
         echo color(text: "\n>>> 💚 Thanks for using the script! Waiting 24 hours to next faucet!\n", colorCode: '1;32');
-        echo color(text: ">>> ⭐ Don't forget to give star to the repo: ", colorCode: '1;36') . color(text: "\033[37https://github.com/MeoMunDep/MeoMunDep\033[0m", colorCode: '0;36') . "\n";
+        echo color(text: ">>> ⭐ Don't forget to give star to the repo: ", colorCode: '1;36') . color(text: "\033[37mhttps://github.com/MeoMunDep/MeoMunDep\033[0m", colorCode: '0;36') . "\n";
         countdown(seconds: 86400);
     }
 }
